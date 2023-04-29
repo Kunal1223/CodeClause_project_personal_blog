@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c41364d712.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- **********************navigation part of the website*************************** -->
+    <div class="navbar">
+        <div class="nav">
+            <div class="nav-right">
+                <img src="image/logo-removebg-preview.png" alt="logo image">
+            </div>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./login animation/login.html">Login</a></li>
+                    <li><a href="#post">feauter Post</a></li>
+                    <li><a href="#menuBtn">Contact</a></li>
+                    <button class="button" id="myBtn" onclick="myFunction()">subscribe</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ******************************introduction part *************** -->
+    <div class="container">
+        <div class="left">
+            <h1>Hey, I'm <span>Kunal Kishor.</span></h1>
+            <h2>Web Developer.</h2>
+            <div class="about">
+                <button class="button1" id="menuBtn">Contect Me</button>
+                <div class="contanier3" id="cont">
+                    <p>Email:kunalbth2002@gmail.com</p>
+                    <p>Number:8797867848</p>
+                </div>
+                <button class="button1" id="contain1">About Me</button>
+                <div class="contanier4">
+                    <button id="contain"><a href="./image/KunalKishor_InternshalaResume.pdf" download>Download
+                            Resume</a></button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <img src="image/my pic in circle.jpg" alt="author picture">
+        </div>
+    </div>
+    <hr class="hr">
+    <!-- **********************************my blog************************ -->
+    <div class="contanier1" id="post">
+        <h1>Let's see some of My Blogs.</h1>
+        <hr class="hr1">
+        <div class="image">
+            <img src="image/web development.jpg" alt="web development image">
+        </div>
+        <h3>1.Web development. </h3>
+        <p>Web development refers to the process of creating websites and web applications that are accessible through
+            the internet. It involves several disciplines, including web design, web content development, client-side
+            scripting, server-side scripting, and database management.
+            Web developers use programming languages such as HTML, CSS, and JavaScript to create web pages and user
+            interfaces. They also use server-side programming languages such as PHP, Python, or Ruby to handle
+            server-side tasks, such as processing form data, accessing databases, and generating dynamic content.
+            Web development also involves creating web applications, which are software programs that run on the web.
+            Examples of web applications include online stores, social media platforms, and email clients. These
+            applications use web technologies to provide users with interactive experiences and perform complex
+            tasks....</p>
+        <button class="botton2" onclick="Reading()">Continue Reading..</button>
+        <hr class="hr2">
+
+        <!-- *************repeat upper one again*********************** -->
+        <div class="image">
+            <img src="image/Artificial-Intelligence1.jpg" alt="AI image">
+        </div>
+        <h3>2.Artificial Intelligence. </h3>
+        <p>Artificial intelligence (AI) refers to the ability of machines and computer programs to perform tasks that
+            would typically require human intelligence, such as learning, reasoning, problem-solving, and
+            decision-making. AI is based on the idea of creating intelligent machines that can perceive their
+            environment, understand natural language, and adapt to changing situations.
+            AI technology can be divided into several categories, including machine learning, natural language
+            processing, robotics, and computer vision. Machine learning is a subset of AI that involves training
+            algorithms to recognize patterns in data and make predictions or decisions based on that data....</p>
+        <button class="botton2" onclick="Reading()">Continue Reading..</button>
+        <hr class="hr2">
+        <!-- *************repeat upper one again*********************** -->
+        <div class="image">
+            <img src="image/my aliens.jpg" alt="aliens image">
+        </div>
+        <h3>3.UFOs and Aliens Among Us. </h3>
+        <p>In the 1940s and 50s reports of "flying saucers" became an American cultural phenomena. Sightings of strange
+            objects in the sky became the raw materials for Hollywood to present visions of potential threats. Posters
+            for films, like Earth vs. the Flying Saucers from 1956 illustrate these fears. Connected to ongoing ideas
+            about life on the Moon, the canals on Mars, and ideas about Martian Civilizations, flying saucers have come
+            to represent the hopes and fears of the modern world.Are these alleged visitors from other worlds peaceful
+            and benevolent or would they attack and destroy humanity? The destructive power of the Atomic bomb called
+            into question the progressive potential of technology.....</p>
+        <div class="learn">
+            <button class="botton2" onclick="Reading()">Continue Reading..</button>
+            <button class="botton3" onclick="Learning()">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="lasy">
+            <h2 class="share">Share this articl.</h2>
+            <div class="icons">
+                <a href="https://twitter.com/?logout=1682507210053"><i class="fa-brands fa-twitter"
+                        id="twitter"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram" id="insta"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" id="face"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" id="link"></i></a>
+            </div>
+        </div>
+        <hr class="hr2">
+    </div>
+
+    <!-- ********************************finaly over*************************** -->
+
+    <div class="container2">
+        <h4>Please give a feedback</h4>
+        <form id="myForm">
+            <input type="text" placeholder="Enter your name"  class="chalo"><br>
+            <input type="text" placeholder="Enter your email" required class="chalo"><br>
+            <input type="number" placeholder="Enter your mobile no" class="chalo"><br>
+            <input type="text" placeholder="Your suggestions" class="test"><br>        
+            <button type="submit" class="submit" id="submit" onclick="yFunction()">Submit</button>
+        </form>
+            <div class="thanks">
+                <p>*Thank you for your suggestions</p>
+            </div>
+    </div>
+    <hr class="hr2">
+
+    <!-- ***********************************footer********************** -->
+    <div class="footer">
+        <div class="container4">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Kunal Blog</h3>
+                    <div class="app-logo">
+                        <img src="./image/logo-removebg-preview.png" alt="logo pic">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">Term</a></li>
+
+                        <li><a href="#">Blog </a></li>
+
+                        <li><a href="#">Events</a></li>
+
+
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+
+                    <ul>
+                        <li><a href="https://twitter.com/?logout=1682507210053" target="_blank">Twitter</a></li>
+
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+
+                        <li><a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a></li>
+
+                        <li><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr id="hr">
+            <p class="copyright">Copyright &copy;2023-Kunal blog</p>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

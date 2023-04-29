@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav {
+    /* background-color: rgba(0, 0, 0, 0.763); */
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.nav-right {
+    margin-left: 20px;
+}
+
+.nav-left {
+    /* display: inline-block; */
+    text-align: center;
+
+}
+
+img {
+    width: 110px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: inline;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+
+.nav ul li {
+    display: inline;
+    /* padding: 15px; */
+    margin: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.nav ul li a:hover {
+    color: blue;
+}
+
+.button {
+    margin-left: 20px;
+    padding: 2.4px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 0.1px solid red;
+
+}
+
+/* *************************************navigation end here ************************ */
+
+.container {
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-around;
+}
+
+.container span {
+    color: blue;
+}
+
+.button1 {
+    padding: 4px;
+    margin-right: 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(13, 13, 221, 0.816);
+    border: 1px solid blue;
+    color: white;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: blue;
+}
+
+.contanier3{
+    margin: 10px;
+    border: 2px solid green;
+    padding: 10px;
+    display: none;
+}
+
+.active{
+    display: block;
+    margin: 10px;
+    border: 2px solid green;
+    background-color: #eaeae4;
+    padding: 10px;
+}
+
+#menuBtn{
+  margin-right: 10px;
+}
+
+#contain{
+    margin-top: 7px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid red;
+    margin-left: 7%;
+    /* display: none; */
+}
+
+.contanier4{
+    display: none;
+}
+
+.active1{
+    display: block;
+}
+
+.contanier4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.right img {
+    width: 200px;
+    height: 190px;
+}
+
+.hr{
+    margin-top: 230px;
+    height: 5px;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.507);
+    margin-left: 87px;
+}
+/* *********************************about part end********************* */
+.contanier1 h1{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: red;
+}
+
+.hr1{
+    width: 30%;
+    background-color: red;
+    height: 2px;
+    margin-left: 24px
+}
+
+.image{
+    text-align: center;
+    margin-top: 65px;
+}
+
+.image img{
+    width: 770px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.contanier1 h3{
+    margin-top: 14px;
+    margin-left: 20%;
+    color:blue;
+}
+
+.contanier1 p{
+    margin: 0% 20%;
+}
+
+.botton2{
+    margin-left: 20%;
+    padding: 8px;
+    background-color: white;
+    color: white;
+    border: 1px solid red;
+    font-size: 14px;
+    background-color: rgb(220, 38, 38);
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.hr2{
+    width: 80%;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.304);
+    box-shadow: 16px 14px 18px grey;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.learn{
+    display: flex;
+}
+
+.botton3{
+    margin-left: 40%;
+    padding: 8px;
+    background-color: white;
+    color: white;
+    border: 1px solid red;
+    font-size: 14px;
+    background-color: rgb(220, 38, 38);
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.lasy{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 22px;
+}
+.icons{
+    cursor: pointer;
+}
+
+.icons a{
+    text-decoration: none;
+    color: none;
+}
+/* 
+#twitter:hover{
+      background-color: #00acee;
+}
+
+#face:hover{
+    background-color: #3b5998;
+}
+
+#insta:hover{
+    background-color: #fd5949 ;
+}
+
+#link:hover{
+    background-color: #0e76a8;
+} */
+/* ***************************feedback now **************************** */
+
+.container2{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 26px;
+    box-shadow: 16px 26px 17px rgb(247, 174, 174);
+    border: 0.05px solid rgb(234, 200, 200);
+    padding: 10px;
+    width: 450px;
+    height: 420px;
+    margin-left: 30%;
+    background-color:rgb(231, 202, 221) ;
+    color: rgb(7, 15, 248);
+    margin-bottom: 80px;
+}
+
+
+.chalo{
+    width: 300px;
+    border-radius: 10px;
+    border: 0.1px solid grey;
+    box-shadow: 7px 28px 18px gray;
+    height: 35px;
+    text-align: center;
+    margin: 8px;
+}
+
+.test{
+    width: 300px;
+    border-radius: 10px;
+    border: 0.1px solid grey;
+    box-shadow: 7px 28px 18px gray;
+    height: 105px;
+    text-align: center;
+    margin: 8px;
+}
+
+.submit{
+    background-color: rgb(41, 209, 41);
+    color: rgb(253, 249, 249);
+    padding: 10px 15px;
+    margin-right: 50%;
+    border: 0.1px solid rgb(7, 252, 7);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: rgb(3, 253, 3);
+
+}
+
+.thanks{
+    display: none;
+}
+
+.active3{
+    display: block;
+}
+
+.thanks p{
+    color: green;
+    font-size: 17px;
+}
+/* *******************************footer************************************ */
+.footer {
+    background-color: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-top: 80px;
+    /* display: flex; */
+
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+
+
+}
+
+.container4 {
+    max-width: 1300px;
+    height: auto;
+    margin: auto;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-col-1 {
+    flex-basis: 40%;
+}
+
+.footer-col-1 img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.footer-col-2 {
+    margin-left: 8pxpx;
+}
+
+.footer-col-2 ul li {
+    cursor: pointer;
+    font-size: 13px;
+    width: 54px;
+    height: auto;
+}
+
+.footer-col-2 a:hover {
+    color: white;
+}
+
+.footer-col-3 ul li {
+    cursor: pointer;
+    font-size: 13px;
+    width: 54px;
+
+}
+
+.footer-col-3 a:hover {
+    color: white;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
+.copyright copy {
+    font-size: 18px;
+
+}
+
+.footer ul li a{
+    color: rgb(190, 184, 184);
+    text-decoration: none;
+}
